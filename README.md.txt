@@ -27,7 +27,7 @@ Proyecto educativo y experimental, compatible con plataformas **AVR / LGT8Fx (Na
 | CLK | Función |
 |-----|--------|
 | CLK0 | VFO (RX 40m LSB) |
-| CLK1 | CAL 25 MHz |
+| CLK1 | NC |
 | CLK2 | BFO (12 MHz + offset) |
 
 ---
@@ -52,7 +52,7 @@ Proyecto educativo y experimental, compatible con plataformas **AVR / LGT8Fx (Na
 ### Botón STEP
 - Click corto: cambia paso de sintonía
 - Pulsación larga (>2 s):
-  - En modo normal → entra a CAL
+  - En modo normal → entra a CAL/CLK)-VFO
   - En CAL → entra a BFO
   - En BFO → vuelve a modo normal
 
@@ -96,3 +96,4 @@ Puedes modificarlo y adaptarlo libremente, mencionando la fuente.
 Juan Carlos Berberena Gonzalez  / WJ6C/exCO6BG
 Radioaficionado – Experimentación RF y QRP  
 2025
+
